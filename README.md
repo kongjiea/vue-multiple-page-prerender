@@ -88,4 +88,4 @@ new PrerenderSpaPlugin(
 ### 其他说明
 a、prerender对vue的渲染基于路由（这里还没弄透彻不需要路由的情况）,所以在.vue模板中需要加上路由配置，配置就是该模块的名字（也就是会输出到dist文件夹下的文件夹名字）
 
-b、不要忘记.vue文件模板上 加上‘<div id="app"></div>’ 包裹标签
+b、不要忘记.vue文件模板上 加上div#app的包裹标签
